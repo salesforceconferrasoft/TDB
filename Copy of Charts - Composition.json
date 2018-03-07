@@ -787,7 +787,7 @@
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\\\"measures\\\":[[\\\"sum\\\",\\\"Amount\\\"]],\\\"groups\\\":[\\\"Product_Family\\\",\\\"Product_Name\\\"]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\",\"Product_Name\"]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -866,7 +866,7 @@
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\\\"measures\\\":[[\\\"sum\\\",\\\"Amount\\\"]],\\\"groups\\\":[\\\"Product_Family\\\"]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\"]}",
           "version": -1
         },
         "receiveFacet": true,
