@@ -27,7 +27,7 @@
   },
   "id": "0FK7F000000FabnWAC",
   "label": "Copy of Charts - Composition",
-  "lastAccessedDate": "2018-03-07T11:46:48.000Z",
+  "lastAccessedDate": "2018-03-07T12:24:55.000Z",
   "lastModifiedBy": {
     "id": "0057F000002B9RkQAK",
     "name": "simhachalam pukkalla",
@@ -787,7 +787,7 @@
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\",\"Product_Name\"]}",
+          "query": "{\\\"measures\\\":[[\\\"sum\\\",\\\"Amount\\\"]],\\\"groups\\\":[\\\"Product_Family\\\",\\\"Product_Name\\\"]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -866,7 +866,7 @@
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Family\"]}",
+          "query": "{\\\"measures\\\":[[\\\"sum\\\",\\\"Amount\\\"]],\\\"groups\\\":[\\\"Product_Family\\\"]}",
           "version": -1
         },
         "receiveFacet": true,
@@ -909,7 +909,7 @@
         "broadcastFacet": true,
         "groups": [],
         "numbers": [],
-        "query": "q = load \"simha__Wave_Sample_Opportunities2\";\nq = group q by 'Industry';\nq = foreach q generate 'Industry' as 'Industry', sum('Amount') as 'sum_Amount';\nq = order q by 'Industry' asc;\nq = limit q 2000;",
+        "query": "q = load \\\"simha__Wave_Sample_Opportunities2\\\";\nq = group q by 'Industry';\nq = foreach q generate 'Industry' as 'Industry', sum('Amount') as 'sum_Amount';\nq = order q by 'Industry' asc;\nq = limit q 2000;",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
