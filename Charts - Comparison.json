@@ -1,12 +1,12 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://simha123-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000FT5uWAG&orgId=00D7F000003es6h&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://simha123-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000FT5oWAG&orgId=00D7F000003es6h&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000002B9RkQAK",
     "name": "simhachalam pukkalla",
     "profilePhotoUrl": "https://simha123-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-02-27T09:09:35.000Z",
+  "createdDate": "2018-02-27T09:09:33.000Z",
   "datasets": [
     {
       "name": "${App.EdgeMarts.Wave_Sample_Opportunities2.Alias}"
@@ -15,27 +15,27 @@
   "files": [
     {
       "contentType": "image/png",
-      "fileLength": 28528,
+      "fileLength": 21470,
       "fileName": "assetPreviewThumb",
-      "id": "0FJ7F000000Gwf4WAC",
-      "lastModifiedDate": "2018-03-07T08:58:55.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F000000FT5uWAG/files/0FJ7F000000Gwf4WAC"
+      "id": "0FJ7F000000GweuWAC",
+      "lastModifiedDate": "2018-02-27T12:13:29.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F000000FT5oWAG/files/0FJ7F000000GweuWAC"
     }
   ],
   "folder": {
     "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F000000FT5uWAG",
-  "label": "Charts - Relationship",
+  "id": "0FK7F000000FT5oWAG",
+  "label": "Charts - Comparison",
   "lastAccessedDate": "2018-03-07T11:42:55.000Z",
   "lastModifiedBy": {
     "id": "0057F000002B9RkQAK",
     "name": "simhachalam pukkalla",
     "profilePhotoUrl": "https://simha123-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-03-07T08:58:48.000Z",
+  "lastModifiedDate": "2018-02-27T09:09:38.000Z",
   "mobileDisabled": false,
-  "name": "Charts_Relationship",
+  "name": "Charts_Comparison",
   "namespace": "simha",
   "permissions": {
     "manage": true,
@@ -54,7 +54,7 @@
         "pages": [
           {
             "label": "Untitled",
-            "name": "d477d3f4-4226-431d-93b4-a576934ce110",
+            "name": "dd6cdb41-7002-4342-bad1-aac226aebe85",
             "widgets": [
               {
                 "colspan": 3,
@@ -119,7 +119,7 @@
                 "row": 30,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -189,7 +189,7 @@
                 "row": 30,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "rgb(216, 221, 230)",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -259,11 +259,25 @@
                 "row": 22,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#F2F6FA",
+                  "backgroundColor": "#FFFFFF",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
                   "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 2,
+                "name": "text_13",
+                "row": 22,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "rgb(0, 112, 210)",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 4
                 }
               },
               {
@@ -287,7 +301,7 @@
                 "column": 28,
                 "name": "text_3",
                 "row": 18,
-                "rowspan": 23,
+                "rowspan": 7,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -300,8 +314,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_7",
-                "row": 41,
-                "rowspan": 3,
+                "row": 27,
+                "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
                   "borderColor": "rgb(237, 235, 232)",
@@ -316,8 +330,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_8",
-                "row": 44,
-                "rowspan": 25,
+                "row": 31,
+                "rowspan": 32,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -330,7 +344,7 @@
                 "colspan": 9,
                 "column": 29,
                 "name": "link_10",
-                "row": 83,
+                "row": 78,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(0, 112, 210)",
@@ -347,7 +361,7 @@
                 "row": 26,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#F2F6FA",
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -361,7 +375,7 @@
                 "row": 26,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#F2F6FA",
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "rgb(216, 221, 230)",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -369,13 +383,13 @@
                 }
               },
               {
-                "colspan": 19,
+                "colspan": 9,
                 "column": 8,
                 "name": "text_9",
                 "row": 23,
                 "rowspan": 3,
                 "widgetStyle": {
-                  "backgroundColor": "rgba(2, 34, 66, 0)",
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderEdges": []
                 }
               },
@@ -384,10 +398,49 @@
                 "column": 8,
                 "name": "text_11",
                 "row": 26,
-                "rowspan": 4,
+                "rowspan": 2,
                 "widgetStyle": {
                   "backgroundColor": "rgba(9, 26, 62, 0)",
                   "borderColor": "#FFFFFF",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 18,
+                "column": 8,
+                "name": "chart_1",
+                "row": 29,
+                "rowspan": 30,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(9, 26, 62, 0)",
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 8,
+                "name": "text_5",
+                "row": 60,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "rgba(2, 34, 66, 0)",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 18,
+                "column": 8,
+                "name": "pillbox_2",
+                "row": 63,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
                   "borderWidth": 1
@@ -398,7 +451,7 @@
                 "column": 7,
                 "name": "container_2",
                 "row": 21,
-                "rowspan": 66,
+                "rowspan": 61,
                 "widgetStyle": {
                   "backgroundColor": "rgb(225, 243, 251)",
                   "borderColor": "#E6ECF2",
@@ -441,7 +494,7 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_14",
-                "row": 72,
+                "row": 67,
                 "rowspan": 4,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
@@ -455,8 +508,8 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "text_15",
-                "row": 76,
-                "rowspan": 7,
+                "row": 71,
+                "rowspan": 6,
                 "widgetStyle": {
                   "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "#E6ECF2",
@@ -470,7 +523,7 @@
                 "column": 0,
                 "name": "container_6",
                 "row": 11,
-                "rowspan": 78,
+                "rowspan": 73,
                 "widgetStyle": {
                   "backgroundColor": "rgb(244, 246, 249)",
                   "borderColor": "#E6ECF2",
@@ -497,7 +550,7 @@
                 "colspan": 11,
                 "column": 28,
                 "name": "container_3",
-                "row": 69,
+                "row": 64,
                 "rowspan": 18,
                 "widgetStyle": {
                   "backgroundColor": "rgb(250, 247, 245)",
@@ -511,7 +564,7 @@
                 "colspan": 1,
                 "column": 38,
                 "name": "image_7",
-                "row": 69,
+                "row": 64,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -525,7 +578,7 @@
                 "colspan": 10,
                 "column": 28,
                 "name": "text_16",
-                "row": 69,
+                "row": 64,
                 "rowspan": 3,
                 "widgetStyle": {
                   "backgroundColor": "rgb(237, 235, 232)",
@@ -542,7 +595,7 @@
                 "row": 14,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#F2F6FA",
+                  "backgroundColor": "rgba(242, 246, 250, 0)",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -556,7 +609,7 @@
                 "row": 19,
                 "rowspan": 3,
                 "widgetStyle": {
-                  "backgroundColor": "#F2F6FA",
+                  "backgroundColor": "rgba(242, 246, 250, 0)",
                   "borderColor": "#E6ECF2",
                   "borderEdges": [],
                   "borderRadius": 0,
@@ -570,57 +623,11 @@
                 "row": 14,
                 "rowspan": 4,
                 "widgetStyle": {
-                  "backgroundColor": "#F2F6FA",
+                  "backgroundColor": "rgba(255, 255, 255, 0)",
                   "borderColor": "rgb(216, 221, 230)",
                   "borderEdges": [],
                   "borderRadius": 0,
                   "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 4,
-                "column": 2,
-                "name": "link_3",
-                "row": 22,
-                "rowspan": 4,
-                "widgetStyle": {
-                  "backgroundColor": "#F2F6FA",
-                  "borderColor": "rgb(216, 221, 230)",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
-              },
-              {
-                "colspan": 18,
-                "column": 8,
-                "name": "chart_1",
-                "row": 31,
-                "rowspan": 30,
-                "widgetStyle": {
-                  "backgroundColor": "rgba(2, 34, 66, 0)",
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 18,
-                "column": 8,
-                "name": "pillbox_1",
-                "row": 63,
-                "rowspan": 3,
-                "widgetStyle": {
-                  "backgroundColor": "#FFFFFF",
-                  "borderEdges": []
-                }
-              },
-              {
-                "colspan": 8,
-                "column": 7,
-                "name": "container_5",
-                "row": 92,
-                "rowspan": 11,
-                "widgetStyle": {
-                  "borderEdges": []
                 }
               }
             ]
@@ -631,7 +638,7 @@
         "style": {
           "alignmentX": "left",
           "alignmentY": "top",
-          "backgroundColor": "#FFFFFF",
+          "backgroundColor": "rgb(255, 255, 255)",
           "cellSpacingX": 0,
           "cellSpacingY": 0,
           "fit": "original",
@@ -642,7 +649,45 @@
     ],
     "layouts": [],
     "steps": {
-      "Segment_1": {
+      "Grouping___Compariso_1": {
+        "broadcastFacet": false,
+        "datasets": [],
+        "dimensions": [],
+        "groups": [],
+        "isGlobal": false,
+        "label": "Grouping - Comparison 1 Measure",
+        "numbers": [],
+        "selectMode": "singlerequired",
+        "start": "{&quot;display&quot;:[&quot;Top&quot;]}",
+        "strings": [],
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{\"display\":\"Top\",\"value\":false}",
+          "{\"display\":\"Worst\",\"value\":true}"
+        ]
+      },
+      "Vis___Compariso_1": {
+        "broadcastFacet": false,
+        "datasets": [],
+        "dimensions": [],
+        "groups": [],
+        "isGlobal": false,
+        "label": "Visualization - Comparison 1 Measure",
+        "numbers": [],
+        "selectMode": "singlerequired",
+        "start": "{&quot;display&quot;:[&quot;Bars&quot;]}",
+        "strings": [],
+        "type": "staticflex",
+        "useGlobal": false,
+        "values": [
+          "{\"display\":\"Bars\",\"value\":\"hbar\"}",
+          "{\"display\":\"Columns\",\"value\":\"vbar\"}",
+          "{\"display\":\"Horizontal Dot Plot\",\"value\":\"hdot\"}",
+          "{\"display\":\"Vertical Dot Plot\",\"value\":\"vdot\"}"
+        ]
+      },
+      "Product_Name_1": {
         "broadcastFacet": true,
         "datasets": [
           {
@@ -651,78 +696,17 @@
         ],
         "isGlobal": false,
         "query": {
-          "query": "{\"measures\":\"{{cell(Measures___Relations_1.selection, 0, \\\"value\\\").asObject()}}\",\"groups\":[\"Segment\"]}",
+          "query": "{\"measures\":[[\"sum\",\"Amount\"]],\"groups\":[\"Product_Name\"],\"order\":[[-1,{\"ascending\":\"{{cell(Grouping___Compariso_1.selection, 0, \\\"value\\\").asObject()}}\"}]]}",
           "version": -1
         },
         "receiveFacet": true,
-        "selectMode": "single",
+        "selectMode": "multi",
         "type": "aggregateflex",
         "useGlobal": true,
         "visualizationParameters": {
-          "parameters": {
-            "radiusRatio": 5,
-            "legend": {
-              "showHeader": true,
-              "show": true,
-              "customSize": "auto",
-              "position": "right-top",
-              "inside": false
-            },
-            "x": {
-              "sqrtScale": false,
-              "showZero": true,
-              "showTitle": true,
-              "showAxis": true,
-              "title": "",
-              "customDomain": {
-                "showDomain": false
-              }
-            },
-            "visualizationType": "scatter",
-            "y": {
-              "sqrtScale": false,
-              "showZero": true,
-              "showTitle": true,
-              "showAxis": true,
-              "title": "",
-              "customDomain": {
-                "showDomain": false
-              }
-            },
-            "theme": "wave",
-            "title": {
-              "label": "",
-              "align": "center",
-              "subtitleLabel": ""
-            },
-            "trellis": {
-              "flipLabels": false,
-              "showGridLines": true,
-              "enable": false,
-              "type": "x",
-              "chartsPerLine": 4
-            }
-          },
-          "type": "chart"
+          "options": {},
+          "visualizationType": "hbar"
         }
-      },
-      "Measures___Relations_1": {
-        "broadcastFacet": false,
-        "datasets": [],
-        "dimensions": [],
-        "groups": [],
-        "isGlobal": false,
-        "label": "Measures - Relationship",
-        "numbers": [],
-        "selectMode": "singlerequired",
-        "start": "{&quot;display&quot;:[&quot;3 Measures&quot;]}",
-        "strings": [],
-        "type": "staticflex",
-        "useGlobal": false,
-        "values": [
-          "{\"display\":\"2 Measures\",\"value\":[[\"sum\",\"Amount\"],[\"sum\",\"Order_Quantity\"]]}",
-          "{\"display\":\"3 Measures\",\"value\":[[\"sum\",\"Amount\"],[\"sum\",\"Order_Quantity\"],[\"count\",\"*\"]]}"
-        ]
       }
     },
     "widgetStyle": {
@@ -796,6 +780,15 @@
         },
         "type": "text"
       },
+      "text_13": {
+        "parameters": {
+          "fontSize": 12,
+          "text": "COMPARISON",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "text"
+      },
       "link_13": {
         "parameters": {
           "destinationLink": {
@@ -853,7 +846,7 @@
       "text_15": {
         "parameters": {
           "fontSize": 14,
-          "text": "The chart type toggle under the chart is a binding, which helps make apps more interactive. Want to create your own? Learn how!",
+          "text": "The chart type toggle below the chart is a binding, which helps make apps more interactive. Want to create your own? Learn how!",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -862,7 +855,7 @@
       "text_10": {
         "parameters": {
           "fontSize": 16,
-          "text": "Click the toggle below the chart to change number of measures. The design changes based on your choice. ",
+          "text": "Click the toggle below the chart to try out different chart types. Which one looks best to you?",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -871,7 +864,7 @@
       "text_11": {
         "parameters": {
           "fontSize": 16,
-          "text": "Scatter plot charts show distribution across multiple measures to quickly show relative value.",
+          "text": "Sorted bars help you quickly see top and bottom performers.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -891,7 +884,7 @@
       },
       "container_2": {
         "parameters": {
-          "alignmentX": "left",
+          "alignmentX": "center",
           "alignmentY": "bottom",
           "fit": "fitwidth",
           "image": {
@@ -909,22 +902,10 @@
         },
         "type": "container"
       },
-      "container_5": {
-        "parameters": {
-          "alignmentX": "left",
-          "alignmentY": "top",
-          "fit": "fitheight",
-          "image": {
-            "name": "X100jpg",
-            "namespace": "simha"
-          }
-        },
-        "type": "container"
-      },
       "text_3": {
         "parameters": {
           "fontSize": 14,
-          "text": "Relationships can be hard, but seeing relationships in your data doesn’t have to be.\n\nWant to compare revenue, number ordered, and number of deals across all segments? Sounds complicated, right? Not for a scatter chart! \n\nThis example makes it easy to visually compare segments (color) by relative position in the chart (up = more ordered, right = more revenue), and relative size (number of deals). Many-layered insight in a compact space. Looks like it’s time to kickstart Enterprise sales….",
+          "text": "No one likes to lose. Comparison charts make it easy to see who’s winning, and who’s not. In this example, books are crushing space phones. Is that a concern? Depends… what’s a space phone?",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -944,6 +925,15 @@
           "text": "Learn which chart types are best for visualizing your data",
           "textAlignment": "center",
           "textColor": "#FFFFFF"
+        },
+        "type": "text"
+      },
+      "text_5": {
+        "parameters": {
+          "fontSize": 14,
+          "text": "works with:",
+          "textAlignment": "left",
+          "textColor": "rgb(2, 34, 66)"
         },
         "type": "text"
       },
@@ -968,15 +958,6 @@
         "parameters": {
           "fontSize": 20,
           "text": "Did You Know?",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "text"
-      },
-      "text_6": {
-        "parameters": {
-          "fontSize": 20,
-          "text": "Why Relationship Charts?",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1008,7 +989,7 @@
           },
           "legend": {
             "showHeader": true,
-            "show": true,
+            "show": false,
             "customSize": "auto",
             "position": "right-top",
             "inside": false
@@ -1023,7 +1004,7 @@
             "customizeTooltip": false,
             "dimensions": ""
           },
-          "visualizationType": "scatter",
+          "visualizationType": "{{cell(Vis___Compariso_1.selection, 0, \"value\").asObject()}}",
           "exploreLink": true,
           "title": {
             "fontSize": 14,
@@ -1037,15 +1018,14 @@
             "flipLabels": false,
             "showGridLines": true,
             "size": [
-              150,
-              150
+              100,
+              100
             ],
             "enable": false,
             "type": "x",
             "parameters": {},
             "chartsPerLine": 4
           },
-          "radiusRatio": 5,
           "measureAxis2": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1055,7 +1035,6 @@
               "showDomain": false
             }
           },
-          "computeTotal": true,
           "measureAxis1": {
             "sqrtScale": false,
             "showTitle": true,
@@ -1065,28 +1044,8 @@
               "showDomain": false
             }
           },
-          "x": {
-            "sqrtScale": false,
-            "showZero": true,
-            "showTitle": true,
-            "showAxis": true,
-            "title": "",
-            "customDomain": {
-              "showDomain": false
-            }
-          },
-          "y": {
-            "sqrtScale": false,
-            "showZero": true,
-            "showTitle": true,
-            "showAxis": true,
-            "title": "Number Ordered",
-            "customDomain": {
-              "showDomain": false
-            }
-          },
+          "step": "Product_Name_1",
           "theme": "light",
-          "step": "Segment_1",
           "dimensionAxis": {
             "showTitle": true,
             "customSize": "auto",
@@ -1105,10 +1064,19 @@
         },
         "type": "chart"
       },
+      "text_6": {
+        "parameters": {
+          "fontSize": 20,
+          "text": "Why Comparison Charts?",
+          "textAlignment": "left",
+          "textColor": "rgb(22, 50, 92)"
+        },
+        "type": "text"
+      },
       "text_9": {
         "parameters": {
           "fontSize": 20,
-          "text": "Compare by Position and Size",
+          "text": "See Who's Measuring Up",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1117,7 +1085,7 @@
       "text_8": {
         "parameters": {
           "fontSize": 14,
-          "text": "To take full advantage of a scatter chart, add three measures. With just two measures, all the bubbles will be the same size. Still useful, but not awesome.\n\nWhen building your chart, change the order of your measures for the best fit. Want the x-axis to show units? Move that measure to the top. Want bubble size to reflect revenue? Move Sum of Amount to the bottom.\n\nWhen choosing a chart, hover over the type to see helpful hints about the number of measures and groupings. Charts you can’t use are grayed out.",
+          "text": "The humble bar chart is the workhorse of analytics. Pie charts may have pretty colors, but our eyes can’t discern area differences as well as height or length. Bars are often the best choice for comparison, while pies are better for composition.\n\nFor leaderboards, sort descending. Did you know you can add Chatter icons to charts? Find out more in the “Add Icons to Analytics Charts” help topic.\n\nComparison charts are best when you have a single measure. If you add another measure, you simply get side-by-side graphs. If you add another group, it can look a little weird. Usually best to use stacked bar or stacked column for multiple groups.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1204,21 +1172,6 @@
         },
         "type": "image"
       },
-      "link_3": {
-        "parameters": {
-          "destinationLink": {
-            "name": "Charts_Comparison",
-            "namespace": "simha"
-          },
-          "destinationType": "dashboard",
-          "fontSize": 12,
-          "includeState": false,
-          "text": "COMPARISON",
-          "textAlignment": "left",
-          "textColor": "rgb(22, 50, 92)"
-        },
-        "type": "link"
-      },
       "link_1": {
         "parameters": {
           "destinationLink": {
@@ -1249,6 +1202,14 @@
         },
         "type": "link"
       },
+      "pillbox_2": {
+        "parameters": {
+          "compact": false,
+          "exploreLink": true,
+          "step": "Vis___Compariso_1"
+        },
+        "type": "pillbox"
+      },
       "link_8": {
         "parameters": {
           "destinationLink": {
@@ -1263,14 +1224,6 @@
           "textColor": "#FFFFFF"
         },
         "type": "link"
-      },
-      "pillbox_1": {
-        "parameters": {
-          "compact": false,
-          "exploreLink": true,
-          "step": "Measures___Relations_1"
-        },
-        "type": "pillbox"
       },
       "image_1": {
         "parameters": {
@@ -1311,5 +1264,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000FT5uWAG"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000FT5oWAG"
 }

@@ -18,7 +18,7 @@
       "fileLength": 30056,
       "fileName": "assetPreviewThumb",
       "id": "0FJ7F000000GwfEWAS",
-      "lastModifiedDate": "2018-03-07T08:05:41.000Z",
+      "lastModifiedDate": "2018-03-07T08:48:40.000Z",
       "url": "/services/data/v41.0/wave/lenses/0FK7F000000FT5pWAG/files/0FJ7F000000GwfEWAS"
     }
   ],
@@ -27,13 +27,13 @@
   },
   "id": "0FK7F000000FT5pWAG",
   "label": "Charts - Composition",
-  "lastAccessedDate": "2018-03-07T08:06:35.000Z",
+  "lastAccessedDate": "2018-03-07T11:42:54.000Z",
   "lastModifiedBy": {
     "id": "0057F000002B9RkQAK",
     "name": "simhachalam pukkalla",
     "profilePhotoUrl": "https://simha123-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-03-07T08:05:18.000Z",
+  "lastModifiedDate": "2018-03-07T08:48:32.000Z",
   "mobileDisabled": false,
   "name": "Charts_Composition",
   "namespace": "simha",
@@ -725,20 +725,6 @@
                   "backgroundColor": "#FFFFFF",
                   "borderEdges": []
                 }
-              },
-              {
-                "colspan": 20,
-                "column": 7,
-                "name": "chart_3",
-                "row": 70,
-                "rowspan": 17,
-                "widgetStyle": {
-                  "backgroundColor": "rgb(225, 243, 251)",
-                  "borderColor": "#E6ECF2",
-                  "borderEdges": [],
-                  "borderRadius": 0,
-                  "borderWidth": 1
-                }
               }
             ]
           }
@@ -896,72 +882,6 @@
             "trellis": {
               "flipLabels": false,
               "showGridLines": true,
-              "enable": false,
-              "type": "x",
-              "chartsPerLine": 4
-            },
-            "inner": 60
-          },
-          "type": "chart"
-        }
-      },
-      "lens_1": {
-        "broadcastFacet": true,
-        "groups": [],
-        "numbers": [],
-        "query": "q = load \"simha__Wave_Sample_Opportunities2\";\nq = group q by 'Account_Name';\nq = foreach q generate 'Account_Name' as 'Account_Name', sum('Amount') as 'sum_Amount';\nq = order q by 'Account_Name' asc;\nq = limit q 2000;",
-        "receiveFacet": true,
-        "selectMode": "single",
-        "strings": [],
-        "type": "saql",
-        "useGlobal": true,
-        "visualizationParameters": {
-          "parameters": {
-            "centerText": "",
-            "columnMap": {
-              "trellis": [],
-              "dimension": [
-                "Account_Name"
-              ],
-              "plots": [
-                "sum_Amount"
-              ]
-            },
-            "centerValueType": "number",
-            "legend": {
-              "showHeader": true,
-              "show": true,
-              "customSize": "auto",
-              "position": "right-top",
-              "inside": false
-            },
-            "showMeasureTitle": true,
-            "valueType": "compactNumber",
-            "tooltip": {
-              "showBinLabel": true,
-              "measures": "",
-              "showPercentage": true,
-              "showDimensions": true,
-              "showMeasures": true,
-              "customizeTooltip": false,
-              "dimensions": ""
-            },
-            "visualizationType": "pie",
-            "theme": "wave",
-            "title": {
-              "fontSize": 14,
-              "subtitleFontSize": 11,
-              "label": "",
-              "align": "center",
-              "subtitleLabel": ""
-            },
-            "trellis": {
-              "flipLabels": false,
-              "showGridLines": true,
-              "size": [
-                100,
-                100
-              ],
               "enable": false,
               "type": "x",
               "chartsPerLine": 4
@@ -1433,63 +1353,6 @@
         },
         "type": "text"
       },
-      "chart_3": {
-        "parameters": {
-          "centerText": "",
-          "legend": {
-            "showHeader": true,
-            "show": true,
-            "customSize": "auto",
-            "position": "right-top",
-            "inside": false
-          },
-          "showMeasureTitle": true,
-          "tooltip": {
-            "showBinLabel": true,
-            "measures": "",
-            "showPercentage": true,
-            "showDimensions": true,
-            "showMeasures": true,
-            "customizeTooltip": false,
-            "dimensions": ""
-          },
-          "visualizationType": "pie",
-          "title": {
-            "fontSize": 14,
-            "subtitleFontSize": 11,
-            "label": "",
-            "align": "center",
-            "subtitleLabel": ""
-          },
-          "trellis": {
-            "flipLabels": false,
-            "showGridLines": true,
-            "size": [
-              100,
-              100
-            ],
-            "enable": false,
-            "type": "x",
-            "chartsPerLine": 4
-          },
-          "inner": 60,
-          "columnMap": {
-            "trellis": [],
-            "dimension": [
-              "Account_Name"
-            ],
-            "plots": [
-              "sum_Amount"
-            ]
-          },
-          "centerValueType": "number",
-          "computeTotal": false,
-          "valueType": "compactNumber",
-          "theme": "wave",
-          "step": "lens_1"
-        },
-        "type": "chart"
-      },
       "image_9": {
         "parameters": {
           "alignmentX": "center",
@@ -1566,42 +1429,6 @@
           "fit": "original",
           "image": {
             "name": "iconmetricspng4",
-            "namespace": "simha"
-          }
-        },
-        "type": "image"
-      },
-      "image_1": {
-        "parameters": {
-          "alignmentX": "center",
-          "alignmentY": "center",
-          "fit": "original",
-          "image": {
-            "name": "icontrendingpng4",
-            "namespace": "simha"
-          }
-        },
-        "type": "image"
-      },
-      "image_3": {
-        "parameters": {
-          "alignmentX": "center",
-          "alignmentY": "center",
-          "fit": "original",
-          "image": {
-            "name": "iconcompositionpng4",
-            "namespace": "simha"
-          }
-        },
-        "type": "image"
-      },
-      "image_2": {
-        "parameters": {
-          "alignmentX": "center",
-          "alignmentY": "center",
-          "fit": "original",
-          "image": {
-            "name": "iconrelationshippng4",
             "namespace": "simha"
           }
         },
@@ -1749,6 +1576,42 @@
           "textColor": "#091A3E"
         },
         "type": "link"
+      },
+      "image_1": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "icontrendingpng4",
+            "namespace": "simha"
+          }
+        },
+        "type": "image"
+      },
+      "image_3": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconcompositionpng4",
+            "namespace": "simha"
+          }
+        },
+        "type": "image"
+      },
+      "image_2": {
+        "parameters": {
+          "alignmentX": "center",
+          "alignmentY": "center",
+          "fit": "original",
+          "image": {
+            "name": "iconrelationshippng4",
+            "namespace": "simha"
+          }
+        },
+        "type": "image"
       }
     }
   },
