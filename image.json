@@ -1,0 +1,126 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://simha123-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000FaQ8WAK&orgId=00D7F000003es6h&loginHost=ap5.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "0057F000002B9RkQAK",
+    "name": "simhachalam pukkalla",
+    "profilePhotoUrl": "https://simha123-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-03-07T05:01:56.000Z",
+  "datasets": [],
+  "files": [],
+  "folder": {
+    "id": "${App.Folder.Id}"
+  },
+  "id": "0FK7F000000FaQ8WAK",
+  "label": "image",
+  "lastAccessedDate": "2018-03-07T05:03:44.000Z",
+  "lastModifiedBy": {
+    "id": "0057F000002B9RkQAK",
+    "name": "simhachalam pukkalla",
+    "profilePhotoUrl": "https://simha123-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-03-07T05:03:44.000Z",
+  "mobileDisabled": false,
+  "name": "image",
+  "namespace": "simha",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "name": "Default",
+        "numColumns": 12,
+        "pages": [
+          {
+            "label": "Untitled",
+            "name": "8f0d87d3-a61e-4443-85dc-b7d2990da10c",
+            "widgets": [
+              {
+                "colspan": 3,
+                "column": 2,
+                "name": "container_1",
+                "row": 2,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 2,
+                "column": 6,
+                "name": "link_1",
+                "row": 1,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#F2F6FA",
+          "cellSpacingX": 0,
+          "cellSpacingY": 0,
+          "fit": "fitheight",
+          "gutterColor": "#C5D3E0",
+          "image": {
+            "name": "bgfooterdesertjpg12",
+            "namespace": "simha"
+          }
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {},
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "container_1": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original",
+          "image": {
+            "name": "bgpng1",
+            "namespace": "simha"
+          }
+        },
+        "type": "container"
+      },
+      "link_1": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Adventure_Home",
+            "namespace": "simha"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": false,
+          "text": "Adv Home",
+          "textAlignment": "center",
+          "textColor": "#44A2F5"
+        },
+        "type": "link"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000FaQ8WAK"
+}
