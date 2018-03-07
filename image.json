@@ -143,7 +143,7 @@
         "broadcastFacet": true,
         "groups": [],
         "numbers": [],
-        "query": "q = load \"puttupu__Wave_Sample_Opportunities2\";\nq = group q by 'Account_Name';\nq = foreach q generate 'Account_Name' as 'Account_Name', count() as 'count';\nq = order q by 'Account_Name' asc;\nq = limit q 2000;",
+        "query": "q = load \"puttupu__Wave_Sample_Opportunities\";\nq = group q by 'Account_Name';\nq = foreach q generate 'Account_Name' as 'Account_Name', count() as 'count';\nq = order q by 'Account_Name' asc;\nq = limit q 2000;",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
