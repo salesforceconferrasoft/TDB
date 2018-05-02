@@ -18,7 +18,7 @@
   },
   "id": "0FK7F000000FT61WAG",
   "label": "Dynamic Apps - Data  - Order (Compact Form)",
-  "lastAccessedDate": "2018-03-07T11:42:55.000Z",
+  "lastAccessedDate": "2018-05-02T06:49:04.000Z",
   "lastModifiedBy": {
     "id": "0057F000002B9RkQAK",
     "name": "simhachalam pukkalla",
@@ -836,7 +836,7 @@
         "label": "Grouping Toggle",
         "numbers": [],
         "selectMode": "singlerequired",
-        "start": "{&quot;display&quot;:[&quot;Top&quot;]}",
+        "start": "{\"display\":[\"Top\"]}",
         "strings": [],
         "type": "staticflex",
         "useGlobal": false,
@@ -1364,7 +1364,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) cell(Order_Toggle_1.selection, 0, &#92;\"order&#92;\") returns the selected order from the \"Order_Toggle_1\" step. Gets the value from cell (first row, \"order\" column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
+          "text": "1) cell(Order_Toggle_1.selection, 0, \\\"order\\\") returns the selected order from the \"Order_Toggle_1\" step. Gets the value from cell (first row, \"order\" column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
