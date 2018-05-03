@@ -1,0 +1,325 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://simha123-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000GDixWAG&orgId=00D7F000003es6h&loginHost=ap5.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "0057F000002B9RkQAK",
+    "name": "simhachalam pukkalla",
+    "profilePhotoUrl": "https://simha123-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-05-03T10:26:51.000Z",
+  "datasets": [
+    {
+      "name": "${App.EdgeMarts.opportunities.Alias}"
+    }
+  ],
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 3420,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F000000GzJcWAK",
+      "lastModifiedDate": "2018-05-03T10:27:33.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F000000GDixWAG/files/0FJ7F000000GzJcWAK"
+    }
+  ],
+  "folder": {
+    "id": "${App.Folder.Id}"
+  },
+  "id": "0FK7F000000GDixWAG",
+  "label": "april",
+  "lastAccessedDate": "2018-05-03T10:35:34.000Z",
+  "lastModifiedBy": {
+    "id": "0057F000002B9RkQAK",
+    "name": "simhachalam pukkalla",
+    "profilePhotoUrl": "https://simha123-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-05-03T10:27:30.000Z",
+  "mobileDisabled": false,
+  "name": "april",
+  "namespace": "simha",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "refreshDate": "2017-11-29T05:33:04.000Z",
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "name": "Default",
+        "numColumns": 12,
+        "pages": [
+          {
+            "label": "Untitled",
+            "name": "63d9ca49-cab3-4f07-af94-fa5747b9c597",
+            "widgets": [
+              {
+                "colspan": 3,
+                "column": 3,
+                "name": "chart_1",
+                "row": 2,
+                "rowspan": 3,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#F2F6FA",
+          "cellSpacingX": 8,
+          "cellSpacingY": 8,
+          "fit": "original",
+          "gutterColor": "#C5D3E0"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {
+      "lens_1": {
+        "broadcastFacet": true,
+        "groups": [],
+        "numbers": [],
+        "query": "q = load \"simha__opportunities\";\nq = group q by 'AccountId';\nq = foreach q generate 'AccountId' as 'AccountId', count() as 'count';\nq = order q by 'AccountId' asc;\nq = limit q 2000;",
+        "receiveFacet": true,
+        "selectMode": "single",
+        "strings": [],
+        "type": "saql",
+        "useGlobal": true,
+        "visualizationParameters": {
+          "parameters": {
+            "autoFitMode": "keepLabels",
+            "showValues": true,
+            "bins": {
+              "breakpoints": {
+                "high": 100,
+                "low": 0
+              },
+              "bands": {
+                "high": {
+                  "color": "#008000",
+                  "label": ""
+                },
+                "low": {
+                  "color": "#B22222",
+                  "label": ""
+                },
+                "medium": {
+                  "color": "#ffa500",
+                  "label": ""
+                }
+              }
+            },
+            "legend": {
+              "showHeader": true,
+              "show": true,
+              "customSize": "auto",
+              "position": "right-top",
+              "inside": false
+            },
+            "axisMode": "multi",
+            "tooltip": {
+              "showBinLabel": true,
+              "measures": "",
+              "showPercentage": true,
+              "showDimensions": true,
+              "showMeasures": true,
+              "customizeTooltip": false,
+              "dimensions": ""
+            },
+            "visualizationType": "hbar",
+            "title": {
+              "fontSize": 14,
+              "subtitleFontSize": 11,
+              "label": "",
+              "align": "center",
+              "subtitleLabel": ""
+            },
+            "binValues": false,
+            "trellis": {
+              "flipLabels": false,
+              "showGridLines": true,
+              "size": [
+                100,
+                100
+              ],
+              "enable": false,
+              "type": "x",
+              "chartsPerLine": 4
+            },
+            "columnMap": {
+              "trellis": [],
+              "dimensionAxis": [
+                "AccountId"
+              ],
+              "plots": [
+                "count"
+              ]
+            },
+            "measureAxis2": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "measureAxis1": {
+              "sqrtScale": false,
+              "showTitle": true,
+              "showAxis": true,
+              "title": "",
+              "customDomain": {
+                "showDomain": false
+              }
+            },
+            "theme": "wave",
+            "dimensionAxis": {
+              "showTitle": true,
+              "customSize": "auto",
+              "showAxis": true,
+              "title": "",
+              "icons": {
+                "useIcons": false,
+                "iconProps": {
+                  "fit": "cover",
+                  "column": "",
+                  "type": "round"
+                }
+              }
+            }
+          },
+          "type": "chart"
+        }
+      }
+    },
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "chart_1": {
+        "parameters": {
+          "autoFitMode": "keepLabels",
+          "showValues": true,
+          "bins": {
+            "breakpoints": {
+              "high": 100,
+              "low": 0
+            },
+            "bands": {
+              "high": {
+                "color": "#008000",
+                "label": ""
+              },
+              "low": {
+                "color": "#B22222",
+                "label": ""
+              },
+              "medium": {
+                "color": "#ffa500",
+                "label": ""
+              }
+            }
+          },
+          "legend": {
+            "showHeader": true,
+            "show": true,
+            "customSize": "auto",
+            "position": "right-top",
+            "inside": false
+          },
+          "axisMode": "multi",
+          "tooltip": {
+            "showBinLabel": true,
+            "measures": "",
+            "showPercentage": true,
+            "showDimensions": true,
+            "showMeasures": true,
+            "customizeTooltip": false,
+            "dimensions": ""
+          },
+          "visualizationType": "hbar",
+          "title": {
+            "fontSize": 14,
+            "subtitleFontSize": 11,
+            "label": "",
+            "align": "center",
+            "subtitleLabel": ""
+          },
+          "binValues": false,
+          "trellis": {
+            "flipLabels": false,
+            "showGridLines": true,
+            "size": [
+              100,
+              100
+            ],
+            "enable": false,
+            "type": "x",
+            "chartsPerLine": 4
+          },
+          "columnMap": {
+            "trellis": [],
+            "dimensionAxis": [
+              "AccountId"
+            ],
+            "plots": [
+              "count"
+            ]
+          },
+          "measureAxis2": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "computeTotal": false,
+          "measureAxis1": {
+            "sqrtScale": false,
+            "showTitle": true,
+            "showAxis": true,
+            "title": "",
+            "customDomain": {
+              "showDomain": false
+            }
+          },
+          "theme": "wave",
+          "step": "lens_1",
+          "dimensionAxis": {
+            "showTitle": true,
+            "customSize": "auto",
+            "showAxis": true,
+            "title": "",
+            "icons": {
+              "useIcons": false,
+              "iconProps": {
+                "fit": "cover",
+                "column": "",
+                "type": "round"
+              }
+            }
+          }
+        },
+        "type": "chart"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000GDixWAG"
+}
