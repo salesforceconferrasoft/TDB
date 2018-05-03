@@ -27,7 +27,7 @@
   },
   "id": "0FK7F000000FT65WAG",
   "label": "Dynamic Apps - Design - Reference Line",
-  "lastAccessedDate": "2018-03-07T11:42:55.000Z",
+  "lastAccessedDate": "2018-05-03T06:22:08.000Z",
   "lastModifiedBy": {
     "id": "0057F000002B9RkQAK",
     "name": "simhachalam pukkalla",
@@ -782,7 +782,7 @@
         "isGlobal": false,
         "label": "Amount Rounded",
         "query": {
-          "query": "{\"pigql\":\"q = load \\\"simha__Wave_Sample_Opportunities2\\\";&#92;nq = group q by all;&#92;nq = foreach q generate round(avg('Amount')) as 'avg_Amount';\",\"measures\":[[\"count\",\"*\",\"avg_Amount\"]],\"measuresMap\":{},\"groups\":[]}",
+          "query": "{\"pigql\":\"q = load \\\"${App.EdgeMarts.simha__Wave_Sample_Opportunities2.Alias}\\\";\\nq = group q by all;\\nq = foreach q generate round(avg('Amount')) as 'avg_Amount';\",\"measures\":[[\"count\",\"*\",\"avg_Amount\"]],\"measuresMap\":{},\"groups\":[]}",
           "version": -1
         },
         "receiveFacet": false,
@@ -1114,8 +1114,8 @@
             "referenceLines": [
               {
                 "color": "#9271E8",
-                "label": "Avg: {{cell(all_1.result, 0, &quot;avg_Amount&quot;).asString()}}",
-                "value": "{{cell(all_1.result, 0, &quot;avg_Amount&quot;).asString()}}"
+                "label": "Avg: {{cell(all_1.result, 0, \"avg_Amount\").asString()}}",
+                "value": "{{cell(all_1.result, 0, \"avg_Amount\").asString()}}"
               }
             ],
             "title": "",
@@ -1388,7 +1388,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) cell(all_1.result, 0, &#92;\"avg_Amount&#92;\") returns the resulting average amount from the \"all_1\" step. Gets the value from cell (first row, \"avg_Amount\" column) in the step results.\n\n2) asString() formats the result as a string, which is the expected format in the dashboard JSON.\n",
+          "text": "1) cell(all_1.result, 0, \\\"avg_Amount\\\") returns the resulting average amount from the \"all_1\" step. Gets the value from cell (first row, \"avg_Amount\" column) in the step results.\n\n2) asString() formats the result as a string, which is the expected format in the dashboard JSON.\n",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
