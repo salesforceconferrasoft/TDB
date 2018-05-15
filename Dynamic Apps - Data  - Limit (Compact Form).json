@@ -1,41 +1,32 @@
 {
   "allowPreview": true,
-  "assetSharingUrl": "https://simha123-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000FT5zWAG&orgId=00D7F000003es6h&loginHost=ap5.salesforce.com&urlType=sharing",
+  "assetSharingUrl": "https://simha123-dev-ed.my.salesforce.com/analytics/wave/dashboard?assetId=0FK7F000000GELWWA4&orgId=00D7F000003es6h&loginHost=ap5.salesforce.com&urlType=sharing",
   "createdBy": {
     "id": "0057F000002B9RkQAK",
     "name": "simhachalam pukkalla",
     "profilePhotoUrl": "https://simha123-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "createdDate": "2018-02-27T09:09:36.000Z",
+  "createdDate": "2018-05-04T06:18:37.000Z",
   "datasets": [
     {
       "name": "${App.EdgeMarts.Wave_Sample_Opportunities2.Alias}"
     }
   ],
-  "files": [
-    {
-      "contentType": "image/png",
-      "fileLength": 18040,
-      "fileName": "assetPreviewThumb",
-      "id": "0FJ7F000000GwdrWAC",
-      "lastModifiedDate": "2018-02-27T10:19:02.000Z",
-      "url": "/services/data/v41.0/wave/lenses/0FK7F000000FT5zWAG/files/0FJ7F000000GwdrWAC"
-    }
-  ],
+  "files": [],
   "folder": {
     "id": "${App.Folder.Id}"
   },
-  "id": "0FK7F000000FT5zWAG",
+  "id": "0FK7F000000GELWWA4",
   "label": "Dynamic Apps - Data  - Limit (Compact Form)",
-  "lastAccessedDate": "2018-03-07T11:42:58.000Z",
+  "lastAccessedDate": "2018-05-15T02:53:26.000Z",
   "lastModifiedBy": {
     "id": "0057F000002B9RkQAK",
     "name": "simhachalam pukkalla",
     "profilePhotoUrl": "https://simha123-dev-ed--c.ap5.content.force.com/profilephoto/005/T"
   },
-  "lastModifiedDate": "2018-02-27T09:09:41.000Z",
+  "lastModifiedDate": "2018-05-04T06:18:37.000Z",
   "mobileDisabled": false,
-  "name": "Dynamic_Apps_Data_Limit",
+  "name": "Dynamic_Apps_Data_Limit_Compact_Form5",
   "namespace": "simha",
   "permissions": {
     "manage": true,
@@ -730,7 +721,7 @@
         "label": "Grouping Toggle",
         "numbers": [],
         "selectMode": "singlerequired",
-        "start": "{&quot;display&quot;:[&quot;Top 5&quot;]}",
+        "start": "{\"display\":[\"Top 5\"]}",
         "strings": [],
         "type": "staticflex",
         "useGlobal": false,
@@ -1377,7 +1368,7 @@
       "text_23": {
         "parameters": {
           "fontSize": 14,
-          "text": "1) cell(Limit_Toggle_1.selection, 0, &#92;\"limit&#92;\") returns the selected limit from the \"Limit_Toggle_1\" step. Gets the value from cell (first row, \"limit\" column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
+          "text": "1) cell(Limit_Toggle_1.selection, 0, \\\"limit\\\") returns the selected limit from the \"Limit_Toggle_1\" step. Gets the value from cell (first row, \"limit\" column) in the step selection.\n\n2) asObject() formats the results as an array of strings, which is the expected format in the dashboard JSON.",
           "textAlignment": "left",
           "textColor": "rgb(22, 50, 92)"
         },
@@ -1496,5 +1487,5 @@
     }
   },
   "type": "dashboard",
-  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000FT5zWAG"
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F000000GELWWA4"
 }
