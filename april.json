@@ -9,7 +9,11 @@
   "createdDate": "2018-05-03T10:26:51.000Z",
   "datasets": [
     {
-      "name": "${App.EdgeMarts.opportunities.Alias}"
+      "id": "0Fb7F000000GvlfSAC",
+      "label": "Opportunities",
+      "name": "opportunities",
+      "namespace": "simha",
+      "url": "/services/data/v41.0/wave/datasets/0Fb7F000000GvlfSAC"
     }
   ],
   "files": [
@@ -23,11 +27,14 @@
     }
   ],
   "folder": {
-    "id": "${App.Folder.Id}"
+    "id": "00l7F000001b7OBQAY",
+    "label": "Shared App",
+    "name": "SharedApp",
+    "namespace": "simha",
+    "url": "/services/data/v41.0/wave/folders/00l7F000001b7OBQAY"
   },
   "id": "0FK7F000000GDixWAG",
   "label": "april",
-  "lastAccessedDate": "2018-05-03T10:35:34.000Z",
   "lastModifiedBy": {
     "id": "0057F000002B9RkQAK",
     "name": "simhachalam pukkalla",
@@ -88,7 +95,7 @@
         "broadcastFacet": true,
         "groups": [],
         "numbers": [],
-        "query": "q = load \"simha__opportunities\";\nq = group q by 'AccountId';\nq = foreach q generate 'AccountId' as 'AccountId', count() as 'count';\nq = order q by 'AccountId' asc;\nq = limit q 2000;",
+        "query": "q = load &quot;simha__opportunities&quot;;\nq = group q by &#39;AccountId&#39;;\nq = foreach q generate &#39;AccountId&#39; as &#39;AccountId&#39;, count() as &#39;count&#39;;\nq = order q by &#39;AccountId&#39; asc;\nq = limit q 2000;",
         "receiveFacet": true,
         "selectMode": "single",
         "strings": [],
